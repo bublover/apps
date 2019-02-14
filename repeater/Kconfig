@@ -49,3 +49,9 @@ config OTA
 	select HTTP_CLINET
 	help
 	   Enable ota
+
+config RAMSPEED
+	bool "ramspeed benchmark"
+	default n
+	help
+	   Enable the ramspeed benchmark
